@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <title>PORTFOLIO</title>
+</head>
+<body> 
+    <div id="header">
+        <div class="container"> 
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li> 
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+        <div class="flx">
+            <div class="header-text">
+                <p>Front End Developer</p>
+                <h1>Hi, I'am <span>SAJAN</span> <br> MOON</h1>
+                
+            </div>
+            <div>
+                <img class="qwerty" src="images/backgrounds.jpeg" alt="">
+            </div>
+        </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.JPG" alt="FACE">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About</h1>
+                    <p>As a frontend React developer, I have a passion for creating intuitive and engaging user experiences using modern web technologies. I have experience building complex and responsive user interfaces using React.js and Redux, as well as HTML, CSS, and JavaScript.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" >Skills</p>
+                        
+                    </div>
+                    
+                   
+                    <div class="tab-contents active-tab" id="Education">
+                        
+                            <img class="react" src="https://abhijeetgautam.netlify.app/assets/react-3467c8b9.png" alt="react">
+                            <img class="react" src="https://abhijeetgautam.netlify.app/assets/javascript-cd7b08c4.png" alt="react">
+                            <img class="react" src="https://abhijeetgautam.netlify.app/assets/css-1f7280a2.png" alt="react">
+                            <img class="react" src="https://abhijeetgautam.netlify.app/assets/html-363d0ddc.png" alt="react">
+                            <img class="react" src="https://abhijeetgautam.netlify.app/assets/git-c5c93227.png" alt="react">
+                
+                            
+                        
+                    </div>
+
+                    
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.jpeg" alt="">
+                    <div class="layer">
+                        <h2>TechShop Store,E-Commerce WebApplication</h2> 
+                        <p>The app that allows users to browse and purchase various tech products like laptops,
+                            phones, tablets, etc.
+                            </p>
+                        <a href="https://sajanmoon.github.io/ShopTechStore/ " target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <a href="https://github.com/sajanmoon/ShopTechStore/tree/main " target="_blank"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div> 
+                <div class="work">
+                    <img src="images/work-2.png" alt="">
+                    <div class="layer"> 
+                        <h2>YOUTUBE CLONE</h2>
+                        <p>Video-sharing website that mimics the functionality of YouTube.
+                        </p>
+                        
+                        <a href="https://sajanmoon.github.io/youtube-clone/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <a href="https://github.com/sajanmoon/youtube-clone " target="_blank"><i class="fa-brands fa-github"></i></a>
+                    
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.jpg" alt=""> 
+                    <div class="layer">
+                        <h2>DICE GAME</h2> 
+                        <p>A simple dice game where the player rolls two dice and the person with maximum point wins
+                            the game.</p>
+                        <a href="https://sajanmoon.github.io/DiceGame/ " target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <a href="https://github.com/sajanmoon/DiceGame " target="_blank"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i><a class="whites" href="mailto:sajanmoon5@gmail.com">sajanmoon5@gmail.com</a></p>
+                    <p><i class="fa-solid fa-square-phone"></i><a class="whites" href="tel:+919834850922">9834850922</a></p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/sajan-moon-6a53a11a4/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/sajanmoon" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        <!-- <a href=""><i class="fa-brands fa-linkedin"></i></a> -->
+                        <!-- <a href=""><i class="fa-brands fa-linkedin"></i></a> -->
+                    </div>
+                    <a href="images/Resume_SajanMoon.pdf" target="_blank" download class="btn">DOWNLOAD CV</a>
+                </div>
+                <div class="contact-right"> 
+                    <form action="https://formspree.io/f/xyyaolpw" method="POST">
+                        
+                        <input type="text" name="name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="messege" id="" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">SUBMIT</button>
+                    </form> 
+                </div>
+            </div>  
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
